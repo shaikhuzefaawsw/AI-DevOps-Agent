@@ -1,0 +1,11 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: |
+    echo "Starting Deployment"
+    exit 1
+  displayName: "Force Failure"
